@@ -29,4 +29,5 @@ def start_server(port):
         print(f"[CONNECTED] {addr}")
         handle_client(client_socket)
 
-start_server(8080)
+if __name__ == "__main__":
+    start_server(8080)
